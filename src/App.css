@@ -141,3 +141,60 @@ a {
   background-color: #ffc86b;
   color: black;
 }
+.port-head{
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.image-card {
+  position: relative;
+  display: inline-block;
+  padding: 5px 5px ;
+  overflow: hidden;
+  transition: filter 0.3s;
+  min-height: 200px;
+  background-color: rgb(58, 56, 56);
+}
+
+.card-image {
+  width: 100%;
+ object-fit: contain;
+ 
+  transition: filter 0.3s;
+}
+
+.card-image.blur {
+  filter: blur(5px);
+}
+
+.buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.image-card.hovered .buttons {
+  opacity: 1;
+}
+
+.port-button{
+  color: black;
+  border-radius: 15px;
+  padding: 5px 15px;
+  background-color: #ffc86b;
+border: none;
+font-weight: 500;
+}
+
+.titles h5{
+  color: whitesmoke;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+}

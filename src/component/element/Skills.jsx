@@ -73,7 +73,7 @@ const Skills = () => {
             />
           </div>
           <div className="col-sm-3">
-            <SkillCard imgUrl="assets/r&d.png" Title="Web 3.0" name=" w-50 pt-5" />
+            <SkillCard imgUrl="assets/r&d.png" Title="R&D" name=" w-50 pt-5" />
           </div>
         </div>
         
