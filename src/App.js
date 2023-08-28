@@ -5,6 +5,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Navbar from "./component/layout/Navbar";
+import Footer from "./component/layout/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route index path="/" element={<Home />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </React.Fragment>
   );
