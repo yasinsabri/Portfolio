@@ -209,3 +209,12 @@ a {
   font-size: 25px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
+@media only screen and (Max-width:600px){
+  .skill-card{
+    max-width: 100%;
+   margin-top: 15px;
+   
+  }
+ 
+}

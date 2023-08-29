@@ -7,7 +7,7 @@ const Skills = () => {
       <div className="container pb-5">
         <h1 className="skill-head text-center">MY SKILLS</h1>
         <div className="row pt-5  ">
-          <div className="col-sm-3">
+          <div className=" col-sm-3">
             <SkillCard imgUrl="assets/html.svg" Title="HTML" name=" w-50" />
           </div>
           <div className="col-sm-3">
