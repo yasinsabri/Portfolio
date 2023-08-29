@@ -134,7 +134,7 @@ a {
   padding: 25px;
   border-radius: 25px;
   color: whitesmoke;
-  min-height: 270px !important;
+  
 }
 
 .skill-card:hover {
@@ -210,11 +210,28 @@ a {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-@media only screen and (Max-width:600px){
-  .skill-card{
+@media only screen and (max-width: 600px) {
+  .skill-card {
     max-width: 100%;
-   margin-top: 15px;
-   
+    margin-top: 15px;
+    max-height: 150px !important;
   }
- 
+}
+
+@media only screen and (max-width: 992px) {
+  .skill-card {
+    max-width: 100%;
+    margin-top: 15px;
+    min-height: 40px !important;
+    justify-content: center;
+    padding-top: 0%;
+  }
+  .skill-card h4{
+    font-size: 15px;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+  .skill-card img{
+   padding-top: 10px;
+  }
 }
